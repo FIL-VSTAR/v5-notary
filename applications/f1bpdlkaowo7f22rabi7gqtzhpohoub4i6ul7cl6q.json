@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1bpdlkaowo7f22rabi7gqtzhpohoub4i6ul7cl6q",
+  "Issue Number": "5",
+  "Client": {
+    "Name": "National Renewable Energy Laboratory",
+    "Region": "United States",
+    "Industry": "Professional Services (Legal, Consulting, Advising)",
+    "Website": "https://hnzajpedu.com/#/",
+    "Social Media": "公众号：河南中安教育",
+    "Social Media Type": "WeChat",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Henan Zhongan Jianpei Education Technology Co., Ltd. (\"Henan Zhongan\" for short) is an Internet education service organization focusing on vocational qualification certificate examination training and corporate talent training in the field of vocational education. The company settled in Zhengzhou through investment promotion and has now become the focus of investment promotion in the Seventh District of Zhengzhou No. 2 Middle School Enterprise and a key contract signing project for the \"Three Batches\" activities in Henan Province. It has a project license.\r\nThe company actively responds to the country's call for \"Opinions on Promoting the High-Quality Development of Modern Education\" and uses high-quality teachers, in-depth and pragmatic teaching styles and flexible and diverse vocational teaching methods to delve into the field of vocational education, pursue a professional development path, and integrate On the basis of high-quality resources such as professional colleges, industry mentors, and construction companies, we are based on the Internet education platform and continuously optimize the quality of products and services.\r\nAt present, Henan Zhongan relies on its advantages in teachers, products, and services to provide high-quality products and services for hundreds of millions of dollars across the country. It has developed into a comprehensive vocational education brand that provides policy research, application consultation, education and training and other services, creating a Realize career dreams and help corporate personnel improve their professional qualities.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Released to the public as part of the Department of Energy's Open Energy Data Initiative, the Wind Integration National Dataset (WIND) is an update and expansion of the Eastern Wind Integration Data Set and Western Wind Integration Data Set. It supports the next generation of wind integration studies.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will download the 'NREL Wind Integration National Dataset' , and then use lotus or boost calculate to be file of car.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://nrel-pds-wtk/ 1.1PiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f01928097 Hong Kong\r\n2.f02238701 US\r\n3.f02132642 Singapore\r\n4.f02826888 Toronto\r\n5.f02836485 China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1.1 PiB",
+    "Replicas": 6,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-05-21 07:30:51.116827564 UTC",
+    "Validated By": "DDUPA",
+    "Active": true,
+    "Updated At": "2024-05-21 07:37:19.483157284 UTC",
+    "Active Request ID": "efddd379-a186-4ca6-a968-34b4cf117218",
+    "On Chain Address": "f1bpdlkaowo7f22rabi7gqtzhpohoub4i6ul7cl6q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "efddd379-a186-4ca6-a968-34b4cf117218",
+      "Request Type": "First",
+      "Created At": "2024-05-21 07:30:51.116834826 UTC",
+      "Updated At": "2024-05-21 07:30:51.116836053 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "DDUPA",
+          "Signing Address": "f1h3fwbql5ctvvtargtcivfd4yenqbcybyw6cfghi",
+          "Created At": "2024-05-21 07:37:16.868000000 UTC",
+          "Message CID": "bafy2bzaceaudgo4k2yo3oofxklxmshprwinqd25zn245pzyhri2iovfae73ls"
+        }
+      ]
+    }
+  ]
+}
