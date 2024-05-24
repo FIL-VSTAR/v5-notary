@@ -35,12 +35,12 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-05-23 06:52:23.027850072 UTC",
     "Validated By": "DDUPA",
     "Active": true,
-    "Updated At": "2024-05-24 13:33:41.556678293 UTC",
-    "Active Request ID": "cda1bd48-d6f8-43e7-aab7-16ed7af0e4ca",
+    "Updated At": "2024-05-24 14:00:03.675199874 UTC",
+    "Active Request ID": "4441b90d-2a4a-4966-80b5-471552046afe",
     "On Chain Address": "f1w2e4dn3kjcidr5bm6ifao243cqjhjbzlktago3y",
     "Multisig Address": "false",
     "edited": false
@@ -77,6 +77,15 @@
           "Message CID": "bafy2bzacecjhng6e4pqeixoqfcyyt66vqi63rdjjihyffyuja3kybed4lacaw"
         }
       ]
+    },
+    {
+      "ID": "4441b90d-2a4a-4966-80b5-471552046afe",
+      "Request Type": "Refill",
+      "Created At": "2024-05-24 14:00:03.675207425 UTC",
+      "Updated At": "2024-05-24 14:00:03.675208891 UTC",
+      "Active": true,
+      "Allocation Amount": "1PiB",
+      "Signers": []
     }
   ]
 }
