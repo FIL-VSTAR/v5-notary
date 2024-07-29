@@ -7,6 +7,7 @@ body:
     render: text
     label: Please list the provider IDs and locations of the storage providers when applying for the DataCap. 
     description: Please list in the format "1. SP ID, Location 2. SP ID, Location...". 
+  validations:
     required: true
 - type: textarea
   attributes:
