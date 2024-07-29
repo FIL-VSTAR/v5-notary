@@ -2,14 +2,12 @@ name: Client Update Storage Provider List
 description: If clients need to add a new storage provider and it is not listed in the corresponding application issue, they need to submit this issue to apply.
 title: "[DataCap Application] <Organization> - <Project Name>"
 body:
-
 - type: textarea
   attributes:
     render: text
     label: Please list the provider IDs and locations of the storage providers when applying for the DataCap. 
     description: Please list in the format "1. SP ID, Location 2. SP ID, Location...". 
     required: true
-
 - type: textarea
   attributes:
     render: text
