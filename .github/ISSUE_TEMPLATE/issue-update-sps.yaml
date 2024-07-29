@@ -1,6 +1,6 @@
 name: Client Update Storage Provider List
 description: If clients need to add a new storage provider and it is not listed in the corresponding application issue, they need to submit this issue to apply.
-title: "[DataCap Application] <Organization> - <Project Name>"
+title: "[SP List Refresh] <Organization> - <Project Name>"
 body:
 - type: textarea
   attributes:
