@@ -35,11 +35,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-07-18 10:19:11.114719473 UTC",
     "Validated By": "DDUPA",
     "Active": true,
-    "Updated At": "2024-09-02 04:13:06.016798789 UTC",
+    "Updated At": "2024-09-02 04:14:26.624956167 UTC",
     "Active Request ID": "0327daae-55ab-47fa-a923-54453bb399e3",
     "On Chain Address": "f1ysecnx2x6bryrdhfz3ndttpsvfded5ocdxnedoq",
     "Multisig Address": "false",
@@ -99,9 +99,16 @@
       "Request Type": "Refill",
       "Created At": "2024-09-02 04:13:06.016807792 UTC",
       "Updated At": "2024-09-02 04:13:06.016809526 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "600TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "DDUPA",
+          "Signing Address": "f1h3fwbql5ctvvtargtcivfd4yenqbcybyw6cfghi",
+          "Created At": "2024-09-02 04:14:22.151000000 UTC",
+          "Message CID": "bafy2bzaceaobwk6uqscem7p5j2drhz7r7dip7r32kberdz3cxqirbuc53hleq"
+        }
+      ]
     }
   ]
 }
